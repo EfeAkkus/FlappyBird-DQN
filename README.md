@@ -3,7 +3,7 @@
 A highly optimized PyTorch implementation of a Deep Q-Network (DQN) agent incorporating modern enhancements—namely **Double DQN**, **Dueling Architectures**, **Huber Loss**, and **Polyak Averaging (Soft Target Updates)**—to solve the complex *FlappyBird-v0* environment from scratch.
 
 <p align="center">
-  <img src="assets/stage3_best.gif" alt="Trained Agent Gameplay" width="300">
+  <img src="assets/stage3_looped.gif" alt="Trained Agent Gameplay" width="300">
 </p>
 
 ## Key Features
