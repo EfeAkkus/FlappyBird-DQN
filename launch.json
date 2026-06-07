@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Train CartPole",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "agent.py",
+            "console": "integratedTerminal",
+            "args": ["cartpole1", "--train"]
+        },
+        {
+            "name": "Train FlappyBird",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "agent.py",
+            "console": "integratedTerminal",
+            "args": ["flappybird1", "--train"]
+        },
+        {
+            "name": "Test FlappyBird",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "agent.py",
+            "console": "integratedTerminal",
+            "args": ["flappybird1"]
+        }
+    ]
+}
