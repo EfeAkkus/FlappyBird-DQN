@@ -97,7 +97,10 @@ Ensure you are running Python 3.11+. Clone the repository and install the depend
 git clone https://github.com/EfeAkkus/FlappyBird-DQN
 cd FlappyBird-DQN
 python -m venv .venv
+# For Linux/Mac:
 source .venv/bin/activate
+# For Windows:
+# .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
